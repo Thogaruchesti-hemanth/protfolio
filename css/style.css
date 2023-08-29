@@ -230,6 +230,8 @@ body {
   .slider_section .detail_box h1 {
     text-transform: uppercase;
     font-weight: bold;
+    text-align: center;
+    color: #28385e;
   }
   
   .slider_section .detail_box p {
