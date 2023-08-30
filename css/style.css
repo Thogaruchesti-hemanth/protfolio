@@ -639,7 +639,7 @@ body {
     color: #fff;
   }
   .icon-icon .fa-linkedin-in{
-    color: #0077b5;
+    color: #3225bf;
   }
   .linkedinicon:hover{
     background: #ffffff;
@@ -666,8 +666,8 @@ body {
     background: #ffffff;
   }
 
-  .social-icon1111{
+  /* .social-icon1111{
     position: absolute;
     left: 100px;
 
-  }
+  } */
