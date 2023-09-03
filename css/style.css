@@ -296,9 +296,14 @@ body {
     -webkit-transform: translate(-45px, 0);
             transform: translate(-45px, 0);
   }
+  /* slider section ends here */
+
+
+  /* service section starts here */
   
   .service_section {
     text-align: center;
+    /* background-color:#eae6f5; */
   }
   
   .service_section .heading_container {
@@ -387,9 +392,13 @@ body {
   .service_section .btn-box a:hover {
     background-color: #5625a1;
   }
-  
+  /* service section ends here */
+
+  /* about section starts here  */
   .about_section {
-    background-color: #f3f0f6;
+    background-color: #eae6f5;
+    /* background-image: url("backgroud-img.jpg");
+    position: relative; */
   }
   
   .about_section .row {
@@ -449,6 +458,10 @@ body {
     background-color: #5625a1;
   }
   
+  /* about section ends here  */
+
+
+  /* blog section starts here  */
   .blog_section .heading_container {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -458,29 +471,34 @@ body {
   .blog_section .heading_container h2::before {
     background-color: #ffffff;
   }
-  
   .blog_section .box {
-    margin-top: 55px;
+    margin-top: 35px;
+    
     background-color: #ffffff;
-    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
             box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
   }
   
   .blog_section .box .img-box {
-    position: relative;
+    position:relative;
   }
   
   .blog_section .box .img-box img {
-    width: 100%;
+    width:100%;
   }
   
   .blog_section .box .detail-box {
-    padding: 25px 25px 15px;
+    padding: 15px 15px 15px;
   }
   
   .blog_section .box .detail-box h5 {
     font-weight: bold;
   }
+
+  /* blog section ends here  */
+
+
+  /* contact section starts here  */
   
   .contact_section {
     position: relative;
@@ -553,6 +571,8 @@ body {
     background-position: top;
   }
   
+  /* contact ends here  */
+
   /* info section */
   .info_section {
     background-color: #4b208c;
@@ -600,16 +620,16 @@ body {
     text-align: center;
     padding: 20px;
   }
-  /*# sourceMappingURL=style.css.map */
 
+  /* footer ends here */
 
+  /* social media  */
   .social-i {
     width: 100%;
     height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background: rgb(240, 240, 240); */
   }
 
   .social-i h3 
@@ -666,8 +686,4 @@ body {
     background: #ffffff;
   }
 
-  /* .social-icon1111{
-    position: absolute;
-    left: 100px;
-
-  } */
+  /* social media ends */
