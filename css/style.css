@@ -607,18 +607,15 @@ body {
   .footer_section {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    position: relative;
   }
   
   .footer_section p {
     color: #0b010e;
     margin: 5 auto;
     text-align: center;
-    padding: 20px;
   }
 
   /* footer ends here */
