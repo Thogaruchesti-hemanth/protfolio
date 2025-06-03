@@ -684,3 +684,84 @@ body {
   }
 
   /* social media ends */
+
+
+/* Education Section */
+#education {
+  border: 1px solid #dcdcdc;
+  background-color:#ffffff ;
+padding: 50px 20px;
+}
+
+#education .container {
+max-width: 100%;
+margin: 0 auto;
+padding: 0 15px;
+}
+
+#education .heading_container {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 30px 0;
+}
+
+.education-row {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+gap: 20px;
+}
+
+.education-item {
+display: flex;
+background: #eae6f5;
+border-radius: 8px;
+box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+flex: 1 1 calc(33.33% - 20px); /* Responsive grid layout */
+max-width: 100%;
+overflow: hidden;
+}
+
+.education-item:hover{
+  background-color: #ffffff;
+}
+
+.education-image {
+width: 150px;
+height: 100%;
+border-radius: 8px;
+margin-right: 15px;
+object-fit: cover;
+}
+
+.education-details {
+padding: 15px;
+text-align: left;
+}
+
+.education-details h3 {
+font-size: 1.3rem;
+color: #4b208c;
+margin-bottom: 10px;
+}
+
+.education-details .institute {
+font-size: 1.1rem;
+color: #555;
+font-weight: bold;
+}
+
+.education-details .duration,
+.education-details .details {
+font-size: 0.9rem;
+color: #666;
+}
+
+.education-details .address,
+.education-details .details {
+font-size: 0.9rem;
+color: #666;
+}
+
+
