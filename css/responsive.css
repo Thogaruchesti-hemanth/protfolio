@@ -1,174 +1,100 @@
-@media (max-width: 1120px) {
-}
+/* Responsive adjustments */
 
-@media (max-width: 992px) {
-  .hero_area {
-    height: auto;
-  }
-
-  .header_section {
-    padding-top: 10px;
-  }
-
-  #navbarSupportedContent {
-    margin-top: 25px;
-  }
-
-  .slider_section {
-    padding-top: 75px;
-    padding-bottom: 150px;
-  }
-
-  .about_section .img-box {
-    margin: 0 5%;
-  }
-
-  .about_section .detail-box {
-    margin-right: 5%;
-  }
-
-  .service_section .service_container .box {
-    -ms-flex-preferred-size: 48%;
-    flex-basis: 48%;
-  }
-
-  .about_section .img_container .img-box.b2 {
-    margin-top: -5%;
+@media (max-width: 1199.98px) {
+  .hero-name {
+    font-size: 3.5rem;
   }
 }
 
-@media (max-width: 768px) {
-  .slider_section .detail_box {
+@media (max-width: 991.98px) {
+  .hero-section {
     text-align: center;
+    padding-top: 120px;
   }
 
-  .slider_section .img_content {
-    margin-top: 55px;
+  .hero-content {
+    margin-bottom: 60px;
   }
 
-  .contact_section .map_container {
-    margin-top: 45px;
+  .hero-description {
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .info_section .info_contact a {
-    margin-bottom: 15px;
-  }
-
-  .info_section .info_social ul li {
-    align-items: center;
+  .social-links {
     justify-content: center;
   }
 
-  .service_section .service_container .box {
-    flex-basis: 98%;
+  .about-images {
+    min-height: auto;
+    margin-bottom: 40px;
   }
 
-  .contact_section form {
-    padding-right: 0;
-  }
-
-  .info_section .info_contact a {
-    text-align: center;
-  }
-}
-
-@media (max-width: 576px) {
-  .about_section .img_container .img-box.b1 {
-    width: 80%;
-  }
-
-  .about_section .img_container .img-box.b2 {
-    width: 55%;
-  }
-
-  .info_section .info_form form {
-    flex-direction: column;
-  }
-
-  .info_section .info_form form input {
+  .about-img-main {
     width: 100%;
   }
 
-  .info_section .info_form form button {
-    margin-top: 15px;
-    padding: 10px 40px;
+  .about-img-second {
+    display: none;
+  }
+
+  .section-padding {
+    padding: 80px 0;
+  }
+
+  .navbar-collapse {
+    background: rgba(11, 12, 16, 0.95);
+    backdrop-filter: blur(12px);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
   }
 }
 
-@media (max-width: 480px) {
-}
+@media (max-width: 767.98px) {
+  .hero-name {
+    font-size: 2.8rem;
+  }
 
-@media (max-width: 420px) {
-  .slider_section .carousel-control-prev,
-  .slider_section .carousel-control-next {
-    right: 0;
+  .hero-title {
+    font-size: 1.3rem;
+  }
+
+  .section-heading h2 {
+    font-size: 2rem;
+  }
+
+  .tech-list {
+    grid-template-columns: 1fr;
+  }
+
+  .edu-card {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .glass-card {
+    padding: 25px;
+  }
+
+  .footer-social {
+    justify-content: center;
   }
 }
 
-@media (max-width: 360px) {
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1170px;
-  }
-}
-
-@media (max-width: 480px) {
-  #education {
-    padding: 30px 10px;
+@media (max-width: 575.98px) {
+  .hero-name {
+    font-size: 2.2rem;
   }
 
-  .education-details h3 {
-    font-size: 1rem;
-  }
-
-  .education-details .institute {
+  .btn {
+    padding: 10px 24px;
     font-size: 0.9rem;
   }
 
-  .education-details .duration,
-  .education-details .details {
-    font-size: 0.8rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .education-item {
-    flex: 1 1 100%; /* Single item per row */
-    flex-direction: column; /* Stack image and details */
-    text-align: center;
-  }
-
-  .education-image {
-    width: 100%;
-    height: auto;
-    margin: 0 0 15px 0;
-  }
-
-  .education-details {
-    padding: 10px;
-  }
-
-  .education-details h3 {
-    font-size: 1.1rem;
-  }
-
-  .education-details .institute {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 1024px) {
-  .education-item {
-    flex: 1 1 calc(50% - 20px); /* Two items per row */
-  }
-
-  .education-details h3 {
-    font-size: 1.2rem;
-  }
-
-  .education-image {
-    width: 120px;
+  .project-links {
+    flex-wrap: wrap;
+    gap: 10px;
   }
 }
