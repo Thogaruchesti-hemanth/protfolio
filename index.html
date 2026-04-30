@@ -1,663 +1,436 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thogaruchesti Hemanth | Android Developer</title>
-    <!-- SEO Meta -->
-    <meta
-      name="description"
-      content="Portfolio of Thogaruchesti Hemanth, Android Developer specializing in Kotlin, Jetpack Compose, and modern app architecture." />
-    <meta name="author" content="Thogaruchesti Hemanth" />
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
-    <!-- Fonts & Icons -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
-      rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-    <!-- Bootstrap 5 (lightweight, just grid & utilities) -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet" />
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-  </head>
-  <body>
-    <!-- Navbar (fixed, premium) -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-      <div class="container">
-        <a class="navbar-brand fw-bold" href="#">
-          <span>Thogaruchesti Hemanth</span>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#certificates">Certificates</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thogaruchesti Hemanth | Android Developer</title>
+  <!-- SEO Meta -->
+  <meta name="description" content="Portfolio of Thogaruchesti Hemanth, Android Developer specializing in Kotlin, Jetpack Compose, and modern app architecture.">
+  <meta name="author" content="Thogaruchesti Hemanth">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Bootstrap 5 (lightweight, just grid & utilities) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- Navbar (fixed, premium) -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">
+        <img src="images/logo.png" alt="logo" width="30" height="30" class="d-inline-block align-text-top me-2">
+        <span>Thogaruchesti Hemanth</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero-section">
-      <div class="container h-100">
-        <div class="row h-100 align-items-center">
-          <div class="col-lg-7">
-            <div class="hero-content">
-              <p class="hero-greeting">Hello, I'm</p>
-              <h1 class="hero-name">Hemanth Thogaruchesti</h1>
-              <p class="hero-title">
-                Android Developer at <span class="accent">ina Payments</span>
-              </p>
-              <p class="hero-description">
-                Building high‑performance, secure mobile experiences with Kotlin
-                & Jetpack Compose. Published app on Google Play.
-              </p>
-              <div class="hero-actions mt-4">
-                <a href="#contact" class="btn btn-primary me-3">Hire Me</a>
-                <a
-                  href="./images/my%20resume%20(1).pdf"
-                  class="btn btn-outline-light"
-                  target="_blank"
-                  >Resume <i class="fas fa-download ms-1"></i
-                ></a>
-              </div>
-              <div class="social-links mt-5">
-                <a
-                  href="https://www.linkedin.com/in/thogaruchetti-hemanth-6531a1254/"
-                  target="_blank"
-                  class="social-link"
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
-                <a
-                  href="https://github.com/Thogaruchesti-hemanth?tab=repositories"
-                  target="_blank"
-                  class="social-link"
-                  ><i class="fab fa-github"></i
-                ></a>
-                <a
-                  href="https://www.instagram.com/lovely_sh_liker_08/"
-                  target="_blank"
-                  class="social-link"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-              </div>
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-7">
+          <div class="hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Hemanth Thogaruchesti</h1>
+            <p class="hero-title">Android Developer at <span class="accent">ina Payments</span></p>
+            <p class="hero-description">Building high‑performance, secure mobile experiences with Kotlin & Jetpack Compose. Published app on Google Play.</p>
+            <div class="hero-actions mt-4">
+              <a href="#contact" class="btn btn-primary me-3">Hire Me</a>
+              <a href="./images/my%20resume%20(1).pdf" class="btn btn-outline-light" target="_blank">Resume <i class="fas fa-download ms-1"></i></a>
+            </div>
+            <div class="social-links mt-5">
+              <a href="https://www.linkedin.com/in/thogaruchetti-hemanth-6531a1254/" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/Thogaruchesti-hemanth?tab=repositories" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+              <a href="https://www.instagram.com/lovely_sh_liker_08/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
             </div>
           </div>
-          <div class="col-lg-5 d-none d-lg-block">
-            <div class="hero-image-wrapper">
-              <div class="hero-image">
-                <img src="images/slider.jpg" alt="Hemanth" class="img-fluid" />
-              </div>
+        </div>
+        <div class="col-lg-5 d-none d-lg-block">
+          <div class="hero-image-wrapper">
+            <div class="hero-image">
+              <img src="images/slider.jpg" alt="Hemanth" class="img-fluid">
             </div>
           </div>
         </div>
       </div>
-      <div class="hero-bg-shape"></div>
-    </section>
+    </div>
+    <div class="hero-bg-shape"></div>
+  </section>
 
-    <!-- About Section -->
-    <section id="about" class="section-padding">
-      <div class="container">
-        <div class="row g-5 align-items-center">
-          <div class="col-lg-6">
-            <div class="about-images">
-              <div class="about-img-main">
-                <img
-                  src="images/about-img.jpg"
-                  alt="Hemanth working"
-                  class="img-fluid rounded-4" />
-              </div>
-              <div class="about-img-second">
-                <img
-                  src="images/about-img2.jpg"
-                  alt="Hemanth portrait"
-                  class="img-fluid rounded-4" />
-              </div>
+  <!-- About Section -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6">
+          <div class="about-images">
+            <div class="about-img-main">
+              <img src="images/about-img.jpg" alt="Hemanth working" class="img-fluid rounded-4">
             </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="section-heading text-start">
-              <h2>About Me</h2>
-              <div class="heading-separator"></div>
-            </div>
-            <div class="about-content">
-              <p class="lead">
-                I'm an Android Developer passionate about crafting clean,
-                maintainable apps that users love.
-              </p>
-              <p>
-                Currently at <strong>ina Payments</strong>, I develop secure
-                mobile payment solutions with robust PIN flows and REST API
-                integration. I've published <strong>NoteNest</strong> on Google
-                Play — a productivity app with offline-first architecture using
-                Room and Firebase.
-              </p>
-              <div class="tech-stack mt-4">
-                <h5>Technical expertise</h5>
-                <ul class="tech-list">
-                  <li>
-                    <i class="fas fa-check-circle"></i> Kotlin, Jetpack Compose,
-                    XML
-                  </li>
-                  <li>
-                    <i class="fas fa-check-circle"></i> MVVM, Clean Architecture
-                  </li>
-                  <li>
-                    <i class="fas fa-check-circle"></i> Room, Firebase, Retrofit
-                  </li>
-                  <li>
-                    <i class="fas fa-check-circle"></i> Coroutines, Flow, Hilt
-                  </li>
-                  <li>
-                    <i class="fas fa-check-circle"></i> Material Design 3, Git
-                  </li>
-                </ul>
-              </div>
+            <div class="about-img-second">
+              <img src="images/about-img2.jpg" alt="Hemanth portrait" class="img-fluid rounded-4">
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Education Section -->
-    <section id="education" class="section-padding bg-dark-800">
-      <div class="container">
-        <div class="section-heading text-center">
-          <h2>Education</h2>
-          <div class="heading-separator"></div>
-        </div>
-        <div class="row g-4 mt-4">
-          <div class="col-md-6">
-            <div class="edu-card">
-              <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
-              <div class="edu-content">
-                <h3>B.Tech in Computer Science</h3>
-                <p class="institute">
-                  Siddhartha Institute of Engineering & Technology
-                </p>
-                <p class="duration">2020 – 2024</p>
-                <p class="desc">
-                  CGPA: 8.5/10. Active participant in hackathons and tech fests.
-                </p>
-              </div>
-            </div>
+        <div class="col-lg-6">
+          <div class="section-heading text-start">
+            <h2>About Me</h2>
+            <div class="heading-separator"></div>
           </div>
-          <div class="col-md-6">
-            <div class="edu-card">
-              <div class="edu-icon"><i class="fas fa-school"></i></div>
-              <div class="edu-content">
-                <h3>Intermediate (MPC)</h3>
-                <p class="institute">Narayana Junior College</p>
-                <p class="duration">2018 – 2020</p>
-                <p class="desc">
-                  Percentage: 95%. Focus on mathematics and computer science.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Certificates Section -->
-    <section id="certificates" class="section-padding">
-      <div class="container">
-        <div class="section-heading text-center">
-          <h2>Certifications</h2>
-          <div class="heading-separator"></div>
-        </div>
-        <div class="row g-4 mt-4">
-          <!-- Certificate 1 -->
-          <div class="col-lg-3 col-md-6">
-            <div class="cert-card">
-              <div class="cert-img">
-                <img
-                  src="images/c1.jpg"
-                  alt="AI Certificate"
-                  class="img-fluid" />
-              </div>
-              <div class="cert-body">
-                <h5>Artificial Intelligence</h5>
-                <p>SmartKnower</p>
-                <a href="/images/c1.jpg" target="_blank" class="btn-link"
-                  >View <i class="fas fa-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <!-- Certificate 2 -->
-          <div class="col-lg-3 col-md-6">
-            <div class="cert-card">
-              <div class="cert-img">
-                <img
-                  src="images/c2.png"
-                  alt="Web Development"
-                  class="img-fluid" />
-              </div>
-              <div class="cert-body">
-                <h5>Web Development</h5>
-                <p>learncode.academy</p>
-                <a href="/images/c2.png" target="_blank" class="btn-link"
-                  >View <i class="fas fa-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <!-- Certificate 3 -->
-          <div class="col-lg-3 col-md-6">
-            <div class="cert-card">
-              <div class="cert-img">
-                <img
-                  src="images/c3.jpg"
-                  alt="Android Development"
-                  class="img-fluid" />
-              </div>
-              <div class="cert-body">
-                <h5>Full Stack Android</h5>
-                <p>Perfect eLearning</p>
-                <a href="/images/c3.jpg" target="_blank" class="btn-link"
-                  >View <i class="fas fa-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-          <!-- Certificate 4 -->
-          <div class="col-lg-3 col-md-6">
-            <div class="cert-card">
-              <div class="cert-img">
-                <img src="images/c4.jpeg" alt="Hackathon" class="img-fluid" />
-              </div>
-              <div class="cert-body">
-                <h5>Hackathon 2023</h5>
-                <p>2nd Prize - SIET</p>
-                <a href="/images/c4.jpeg" target="_blank" class="btn-link"
-                  >View <i class="fas fa-arrow-right"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="section-padding bg-dark-800">
-      <div class="container">
-        <div class="section-heading text-center">
-          <h2>Featured Projects</h2>
-          <div class="heading-separator"></div>
-        </div>
-        <div class="row g-4 mt-4">
-          <!-- Project 1 -->
-          <div class="col-lg-4 col-md-6">
-            <div class="project-card">
-              <div class="project-img">
-                <img
-                  src="images/pro-img-1.jpg"
-                  alt="Digit Recognition"
-                  class="img-fluid" />
-              </div>
-              <div class="project-body">
-                <h5>Handwritten Digit Recognition</h5>
-                <p>
-                  CNN-based deep learning model to classify digits 0-9. Built
-                  with TensorFlow.
-                </p>
-                <div class="project-tags">
-                  <span>Python</span><span>TensorFlow</span><span>CNN</span>
-                </div>
-                <div class="project-links">
-                  <a
-                    href="https://github.com/Thogaruchesti-hemanth/handwrittten-digit-recognition"
-                    target="_blank"
-                    ><i class="fab fa-github"></i> Code</a
-                  >
-                  <a
-                    href="https://drive.google.com/file/d/1EXguhDlMwGGVGFaCErT-DVa9sME8njMC/view"
-                    target="_blank"
-                    ><i class="fas fa-external-link-alt"></i> Demo</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Project 2 -->
-          <div class="col-lg-4 col-md-6">
-            <div class="project-card">
-              <div class="project-img">
-                <img
-                  src="images/pro-img-2.webp"
-                  alt="Hand Sign Recognition"
-                  class="img-fluid" />
-              </div>
-              <div class="project-body">
-                <h5>Hand Sign Image Recognition</h5>
-                <p>
-                  Deep learning model for classifying hand gestures using OpenCV
-                  and CNNs.
-                </p>
-                <div class="project-tags">
-                  <span>Python</span><span>OpenCV</span
-                  ><span>Deep Learning</span>
-                </div>
-                <div class="project-links">
-                  <a
-                    href="https://github.com/Thogaruchesti-hemanth/hand-sign-image-prediction"
-                    target="_blank"
-                    ><i class="fab fa-github"></i> Code</a
-                  >
-                  <a
-                    href="https://drive.google.com/file/d/16eQqpOHsm4XLDbSiurSD1-RHQ77XXgp4/view"
-                    target="_blank"
-                    ><i class="fas fa-external-link-alt"></i> Demo</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Project 3 -->
-          <div class="col-lg-4 col-md-6">
-            <div class="project-card">
-              <div class="project-img">
-                <img
-                  src="images/pro-img-5.png"
-                  alt="NoteNest"
-                  class="img-fluid" />
-              </div>
-              <div class="project-body">
-                <h5>NoteNest – Productivity App</h5>
-                <p>
-                  Offline-first notes app with cloud sync, built with Kotlin,
-                  Jetpack Compose & Firebase.
-                </p>
-                <div class="project-tags">
-                  <span>Kotlin</span><span>Compose</span><span>Firebase</span>
-                </div>
-                <div class="project-links">
-                  <a href="#" target="_blank"
-                    ><i class="fab fa-github"></i> Code</a
-                  >
-                  <a href="#" target="_blank"
-                    ><i class="fas fa-external-link-alt"></i> Play Store</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Project 4 -->
-          <div class="col-lg-4 col-md-6">
-            <div class="project-card">
-              <div class="project-img">
-                <img
-                  src="images/pro-img-4.jpg"
-                  alt="Payment Solutions"
-                  class="img-fluid" />
-              </div>
-              <div class="project-body">
-                <h5>Mobile Payment Solutions</h5>
-                <p>
-                  Secure payment apps at ina Payments: PIN flows, API
-                  integration, state management.
-                </p>
-                <div class="project-tags">
-                  <span>Android</span><span>Security</span><span>REST</span>
-                </div>
-                <div class="project-links">
-                  <a href="#"><i class="fas fa-lock"></i> Professional</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Project 5 -->
-          <div class="col-lg-4 col-md-6">
-            <div class="project-card">
-              <div class="project-img">
-                <img
-                  src="images/pro-img-3.jpg"
-                  alt="Tic Tac Toe"
-                  class="img-fluid" />
-              </div>
-              <div class="project-body">
-                <h5>Tic Tac Toe Game</h5>
-                <p>Classic Tic Tac Toe built with Java and Android Studio.</p>
-                <div class="project-tags">
-                  <span>Java</span><span>Android</span><span>Game</span>
-                </div>
-                <div class="project-links">
-                  <a
-                    href="https://github.com/Thogaruchesti-hemanth/Tic-Tac-Toe"
-                    target="_blank"
-                    ><i class="fab fa-github"></i> Code</a
-                  >
-                  <a
-                    href="https://drive.google.com/file/d/16Gx3VATNzZyjKCivj9KOAL4pLD9wOf74/view"
-                    target="_blank"
-                    ><i class="fas fa-external-link-alt"></i> APK</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Project 6 -->
-          <div class="col-lg-4 col-md-6">
-            <div class="project-card">
-              <div class="project-img">
-                <img
-                  src="images/pro-img-4.jpg"
-                  alt="Math Quiz"
-                  class="img-fluid" />
-              </div>
-              <div class="project-body">
-                <h5>Math Quiz Game</h5>
-                <p>
-                  Engaging math quiz app for Android to sharpen arithmetic
-                  skills.
-                </p>
-                <div class="project-tags">
-                  <span>Java</span><span>Android</span><span>Education</span>
-                </div>
-                <div class="project-links">
-                  <a
-                    href="https://github.com/Thogaruchesti-hemanth/math-quizz-game"
-                    target="_blank"
-                    ><i class="fab fa-github"></i> Code</a
-                  >
-                  <a
-                    href="https://drive.google.com/file/d/13z3v_JYsD2jg2dCIVZOlREOLoiFkpeHK/view"
-                    target="_blank"
-                    ><i class="fas fa-external-link-alt"></i> APK</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section-padding">
-      <div class="container">
-        <div class="section-heading text-center">
-          <h2>Let's Connect</h2>
-          <div class="heading-separator"></div>
-          <p class="contact-subtitle">
-            Have a project in mind or just want to say hi? Drop me a message!
-          </p>
-        </div>
-        <div class="row justify-content-center mt-5">
-          <div class="col-md-8 col-lg-6">
-            <div class="contact-form glass-card">
-              <form id="portfolioContactForm" onsubmit="sendEmail(event)">
-                <div class="mb-4">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="user_name"
-                    placeholder="Full Name"
-                    required />
-                </div>
-                <div class="mb-4">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="user_email"
-                    placeholder="Email Address"
-                    required />
-                </div>
-                <div class="mb-4">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="subject"
-                    placeholder="Subject" />
-                </div>
-                <div class="mb-4">
-                  <textarea
-                    class="form-control"
-                    id="message"
-                    rows="5"
-                    placeholder="Your Message"
-                    required></textarea>
-                </div>
-                <button
-                  type="submit"
-                  id="sendBtn"
-                  class="btn btn-primary w-100">
-                  Send Message <i class="fas fa-paper-plane ms-2"></i>
-                </button>
-                <div id="statusMessage" class="mt-3 text-center small"></div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-top">
-          <div class="row">
-            <div class="col-md-4 mb-4 mb-md-0">
-              <div class="footer-info">
-                <h5>Thogaruchesti Hemanth</h5>
-                <p>
-                  <i class="fas fa-map-marker-alt me-2"></i> Patancheru,
-                  Sangareddy, Telangana
-                </p>
-                <p>
-                  <i class="fas fa-phone me-2"></i>
-                  <a href="tel:+916281173960">+91 6281173960</a>
-                </p>
-                <p>
-                  <i class="fas fa-envelope me-2"></i>
-                  <a href="mailto:saihemanth225@gmail.com"
-                    >saihemanth225@gmail.com</a
-                  >
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 mb-4 mb-md-0">
-              <h5>Quick Links</h5>
-              <ul class="footer-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+          <div class="about-content">
+            <p class="lead">I'm an Android Developer passionate about crafting clean, maintainable apps that users love.</p>
+            <p>Currently at <strong>ina Payments</strong>, I develop secure mobile payment solutions with robust PIN flows and REST API integration. I've published <strong>NoteNest</strong> on Google Play — a productivity app with offline-first architecture using Room and Firebase.</p>
+            <div class="tech-stack mt-4">
+              <h5>Technical expertise</h5>
+              <ul class="tech-list">
+                <li><i class="fas fa-check-circle"></i> Kotlin, Jetpack Compose, XML</li>
+                <li><i class="fas fa-check-circle"></i> MVVM, Clean Architecture</li>
+                <li><i class="fas fa-check-circle"></i> Room, Firebase, Retrofit</li>
+                <li><i class="fas fa-check-circle"></i> Coroutines, Flow, Hilt</li>
+                <li><i class="fas fa-check-circle"></i> Material Design 3, Git</li>
               </ul>
             </div>
-            <div class="col-md-4">
-              <h5>Connect</h5>
-              <div class="footer-social">
-                <a
-                  href="https://www.linkedin.com/in/thogaruchetti-hemanth-6531a1254/"
-                  target="_blank"
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
-                <a
-                  href="https://github.com/Thogaruchesti-hemanth?tab=repositories"
-                  target="_blank"
-                  ><i class="fab fa-github"></i
-                ></a>
-                <a
-                  href="https://www.instagram.com/lovely_sh_liker_08/"
-                  target="_blank"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-                <a href="https://linktr.ee/thogaruchestihemanth" target="_blank"
-                  ><i class="fas fa-link"></i
-                ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section-padding bg-dark-800">
+    <div class="container">
+      <div class="section-heading text-center">
+        <h2>Education</h2>
+        <div class="heading-separator"></div>
+      </div>
+      <div class="row g-4 mt-4">
+        <div class="col-md-6">
+          <div class="edu-card">
+            <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div class="edu-content">
+              <h3>B.Tech in Computer Science</h3>
+              <p class="institute">Siddhartha Institute of Engineering & Technology</p>
+              <p class="duration">2020 – 2024</p>
+              <p class="desc">CGPA: 8.5/10. Active participant in hackathons and tech fests.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="edu-card">
+            <div class="edu-icon"><i class="fas fa-school"></i></div>
+            <div class="edu-content">
+              <h3>Intermediate (MPC)</h3>
+              <p class="institute">Narayana Junior College</p>
+              <p class="duration">2018 – 2020</p>
+              <p class="desc">Percentage: 95%. Focus on mathematics and computer science.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="section-padding">
+    <div class="container">
+      <div class="section-heading text-center">
+        <h2>Certifications</h2>
+        <div class="heading-separator"></div>
+      </div>
+      <div class="row g-4 mt-4">
+        <!-- Certificate 1 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="cert-card">
+            <div class="cert-img">
+              <img src="images/c1.jpg" alt="AI Certificate" class="img-fluid">
+            </div>
+            <div class="cert-body">
+              <h5>Artificial Intelligence</h5>
+              <p>SmartKnower</p>
+              <a href="/images/c1.jpg" target="_blank" class="btn-link">View <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Certificate 2 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="cert-card">
+            <div class="cert-img">
+              <img src="images/c2.png" alt="Web Development" class="img-fluid">
+            </div>
+            <div class="cert-body">
+              <h5>Web Development</h5>
+              <p>learncode.academy</p>
+              <a href="/images/c2.png" target="_blank" class="btn-link">View <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Certificate 3 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="cert-card">
+            <div class="cert-img">
+              <img src="images/c3.jpg" alt="Android Development" class="img-fluid">
+            </div>
+            <div class="cert-body">
+              <h5>Full Stack Android</h5>
+              <p>Perfect eLearning</p>
+              <a href="/images/c3.jpg" target="_blank" class="btn-link">View <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Certificate 4 -->
+        <div class="col-lg-3 col-md-6">
+          <div class="cert-card">
+            <div class="cert-img">
+              <img src="images/c4.jpeg" alt="Hackathon" class="img-fluid">
+            </div>
+            <div class="cert-body">
+              <h5>Hackathon 2023</h5>
+              <p>2nd Prize - SIET</p>
+              <a href="/images/c4.jpeg" target="_blank" class="btn-link">View <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section-padding bg-dark-800">
+    <div class="container">
+      <div class="section-heading text-center">
+        <h2>Featured Projects</h2>
+        <div class="heading-separator"></div>
+      </div>
+      <div class="row g-4 mt-4">
+        <!-- Project 1 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="project-card">
+            <div class="project-img">
+              <img src="images/pro-img-1.jpg" alt="Digit Recognition" class="img-fluid">
+            </div>
+            <div class="project-body">
+              <h5>Handwritten Digit Recognition</h5>
+              <p>CNN-based deep learning model to classify digits 0-9. Built with TensorFlow.</p>
+              <div class="project-tags">
+                <span>Python</span><span>TensorFlow</span><span>CNN</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Thogaruchesti-hemanth/handwrittten-digit-recognition" target="_blank"><i class="fab fa-github"></i> Code</a>
+                <a href="https://drive.google.com/file/d/1EXguhDlMwGGVGFaCErT-DVa9sME8njMC/view" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="footer-bottom text-center">
-          <p>
-            Copyright &copy; 2023 Thogaruchesti Hemanth. All rights reserved.
-          </p>
+        <!-- Project 2 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="project-card">
+            <div class="project-img">
+              <img src="images/pro-img-2.webp" alt="Hand Sign Recognition" class="img-fluid">
+            </div>
+            <div class="project-body">
+              <h5>Hand Sign Image Recognition</h5>
+              <p>Deep learning model for classifying hand gestures using OpenCV and CNNs.</p>
+              <div class="project-tags">
+                <span>Python</span><span>OpenCV</span><span>Deep Learning</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Thogaruchesti-hemanth/hand-sign-image-prediction" target="_blank"><i class="fab fa-github"></i> Code</a>
+                <a href="https://drive.google.com/file/d/16eQqpOHsm4XLDbSiurSD1-RHQ77XXgp4/view" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="project-card">
+            <div class="project-img">
+              <img src="images/pro-img-5.png" alt="NoteNest" class="img-fluid">
+            </div>
+            <div class="project-body">
+              <h5>NoteNest – Productivity App</h5>
+              <p>Offline-first notes app with cloud sync, built with Kotlin, Jetpack Compose & Firebase.</p>
+              <div class="project-tags">
+                <span>Kotlin</span><span>Compose</span><span>Firebase</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Play Store</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="project-card">
+            <div class="project-img">
+              <img src="images/pro-img-4.jpg" alt="Payment Solutions" class="img-fluid">
+            </div>
+            <div class="project-body">
+              <h5>Mobile Payment Solutions</h5>
+              <p>Secure payment apps at ina Payments: PIN flows, API integration, state management.</p>
+              <div class="project-tags">
+                <span>Android</span><span>Security</span><span>REST</span>
+              </div>
+              <div class="project-links">
+                <a href="#"><i class="fas fa-lock"></i> Professional</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 5 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="project-card">
+            <div class="project-img">
+              <img src="images/pro-img-3.jpg" alt="Tic Tac Toe" class="img-fluid">
+            </div>
+            <div class="project-body">
+              <h5>Tic Tac Toe Game</h5>
+              <p>Classic Tic Tac Toe built with Java and Android Studio.</p>
+              <div class="project-tags">
+                <span>Java</span><span>Android</span><span>Game</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Thogaruchesti-hemanth/Tic-Tac-Toe" target="_blank"><i class="fab fa-github"></i> Code</a>
+                <a href="https://drive.google.com/file/d/16Gx3VATNzZyjKCivj9KOAL4pLD9wOf74/view" target="_blank"><i class="fas fa-external-link-alt"></i> APK</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project 6 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="project-card">
+            <div class="project-img">
+              <img src="images/pro-img-4.jpg" alt="Math Quiz" class="img-fluid">
+            </div>
+            <div class="project-body">
+              <h5>Math Quiz Game</h5>
+              <p>Engaging math quiz app for Android to sharpen arithmetic skills.</p>
+              <div class="project-tags">
+                <span>Java</span><span>Android</span><span>Education</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Thogaruchesti-hemanth/math-quizz-game" target="_blank"><i class="fab fa-github"></i> Code</a>
+                <a href="https://drive.google.com/file/d/13z3v_JYsD2jg2dCIVZOlREOLoiFkpeHK/view" target="_blank"><i class="fas fa-external-link-alt"></i> APK</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </section>
 
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- EmailJS (optional, for demo) -->
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script src="js/contact.js"></script>
-    <script>
-      // Simple form submission placeholder (replace with actual EmailJS or backend)
-      function sendEmail(event) {
-        event.preventDefault();
-        const btn = document.getElementById("sendBtn");
-        const status = document.getElementById("statusMessage");
-        btn.disabled = true;
-        status.style.display = "block";
-        status.innerHTML =
-          '<span class="spinner-border spinner-border-sm me-2" role="status"></span>Sending...';
-        // Simulate sending
-        setTimeout(() => {
-          status.innerHTML =
-            '<span class="text-success">Message sent successfully!</span>';
-          btn.disabled = false;
-          document.getElementById("portfolioContactForm").reset();
-        }, 2000);
-      }
-    </script>
-  </body>
+  <!-- Contact Section -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="section-heading text-center">
+        <h2>Let's Connect</h2>
+        <div class="heading-separator"></div>
+        <p class="contact-subtitle">Have a project in mind or just want to say hi? Drop me a message!</p>
+      </div>
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-8 col-lg-6">
+          <div class="contact-form glass-card">
+            <form id="portfolioContactForm" onsubmit="sendEmail(event)">
+              <div class="mb-4">
+                <input type="text" class="form-control" id="user_name" placeholder="Full Name" required>
+              </div>
+              <div class="mb-4">
+                <input type="email" class="form-control" id="user_email" placeholder="Email Address" required>
+              </div>
+              <div class="mb-4">
+                <input type="text" class="form-control" id="subject" placeholder="Subject">
+              </div>
+              <div class="mb-4">
+                <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" id="sendBtn" class="btn btn-primary w-100">Send Message <i class="fas fa-paper-plane ms-2"></i></button>
+              <div id="statusMessage" class="mt-3 text-center small"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="row">
+          <div class="col-md-4 mb-4 mb-md-0">
+            <div class="footer-info">
+              <h5>Thogaruchesti Hemanth</h5>
+              <p><i class="fas fa-map-marker-alt me-2"></i> Patancheru, Sangareddy, Telangana</p>
+              <p><i class="fas fa-phone me-2"></i> <a href="tel:+916281173960">+91 6281173960</a></p>
+              <p><i class="fas fa-envelope me-2"></i> <a href="mailto:saihemanth225@gmail.com">saihemanth225@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 mb-md-0">
+            <h5>Quick Links</h5>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Connect</h5>
+            <div class="footer-social">
+              <a href="https://www.linkedin.com/in/thogaruchetti-hemanth-6531a1254/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/Thogaruchesti-hemanth?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://www.instagram.com/lovely_sh_liker_08/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://linktr.ee/thogaruchestihemanth" target="_blank"><i class="fas fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom text-center">
+        <p>Copyright &copy; 2023 Thogaruchesti Hemanth. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- EmailJS (optional, for demo) -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="js/contact.js"></script>
+  <script>
+    // Simple form submission placeholder (replace with actual EmailJS or backend)
+    function sendEmail(event) {
+      event.preventDefault();
+      const btn = document.getElementById('sendBtn');
+      const status = document.getElementById('statusMessage');
+      btn.disabled = true;
+      status.style.display = 'block';
+      status.innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status"></span>Sending...';
+      // Simulate sending
+      setTimeout(() => {
+        status.innerHTML = '<span class="text-success">Message sent successfully!</span>';
+        btn.disabled = false;
+        document.getElementById('portfolioContactForm').reset();
+      }, 2000);
+    }
+  </script>
+</body>
 </html>
